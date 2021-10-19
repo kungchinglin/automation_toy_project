@@ -1,15 +1,8 @@
-
-name: GitHub Actions CI
-on:
-  pull_request
-
+name: GitHub Actions Demo
+on: [push, pull_request]
 jobs:
-
-  build:
-    runs-on: ubuntu-latest, windows-latest
-    strategy:
-      fail-fast: false
-
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       
@@ -30,4 +23,6 @@ jobs:
         run: |
           pip install pytest
           pytest -v      
+
+
 
