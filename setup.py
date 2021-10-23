@@ -16,7 +16,7 @@ setup(
     author="Kung-Ching Lin",
     license="MIT",
     packages=["toy_package"],
-    package_dir={"": "toy_package"},
+    package_dir={"toy_package": "toy_package"},
     # package_data={"mnist_models": ["pretrained_models/*pkl"]},
     install_requires=[
         'mnist>=0.2.2',
