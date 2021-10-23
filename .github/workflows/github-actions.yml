@@ -14,7 +14,7 @@ jobs:
       - name: Install package
         run: |
           pip install --upgrade pip
-          pipt install .
+          pip install .
 
       - name: Linting with flake8
         run: |
