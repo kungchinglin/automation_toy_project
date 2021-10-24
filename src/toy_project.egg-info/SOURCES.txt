@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/toy_package/__init__.py
+src/toy_package/bin_search.py
+src/toy_project.egg-info/PKG-INFO
+src/toy_project.egg-info/SOURCES.txt
+src/toy_project.egg-info/dependency_links.txt
+src/toy_project.egg-info/top_level.txt
