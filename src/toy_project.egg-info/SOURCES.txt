@@ -8,4 +8,5 @@ src/toy_package/bin_search.py
 src/toy_project.egg-info/PKG-INFO
 src/toy_project.egg-info/SOURCES.txt
 src/toy_project.egg-info/dependency_links.txt
+src/toy_project.egg-info/not-zip-safe
 src/toy_project.egg-info/top_level.txt
