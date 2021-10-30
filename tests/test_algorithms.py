@@ -1,4 +1,13 @@
 import toy_package.bin_search as bs
+import pytest
+
+
+@pytest.mark.parametrize("data,target,expected", [
+    ([0, 1, 3, 5], 3, 2),
+    ([1, 3, 5, 7, 9, 11], 11, 5)
+])
+def test_parametrized_return_index(data, target, expected) -> None:
+    assert bs.binary_search(data, target) is expected
 
 
 def test_bin_search_returns_index_when_exists() -> None:
